@@ -1,0 +1,7 @@
+stage: production
+backendUrl: https://prodbackend/v1
+
+replicaCount: 2
+
+image:
+  tag: "v1.4.0"

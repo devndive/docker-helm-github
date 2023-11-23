@@ -1,0 +1,7 @@
+stage: testing
+backendUrl: https://testbackend/v1
+
+replicaCount: 2
+
+image:
+  tag: "v1.3.0"
