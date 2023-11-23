@@ -6,6 +6,11 @@ RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 WORKDIR /src
 COPY go.mod go.sum ./
 RUN go mod download
+RUN go mod download
+RUN go mod download
+RUN go mod download
+RUN go mod download
+RUN go mod download
 
 COPY *.go .
 RUN go build -o /bin/server
