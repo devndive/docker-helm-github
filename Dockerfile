@@ -16,6 +16,7 @@ LABEL org.opencontainers.image.source=https://github.com/devndive/docker-helm-gi
 LABEL org.opencontainers.image.revision=v1.3.0
 LABEL org.opencontainers.image.title="Awesome webserver"
 LABEL org.opencontainers.image.description="A webserver to demo helm chart deploymentes"
+LABEL custom="A random string"
 
 WORKDIR /app
 
